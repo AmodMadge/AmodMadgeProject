@@ -1,0 +1,68 @@
+body
+{
+	font-family: 'Roboto Slab', serif;
+}
+#main
+{
+	width:100%;
+	height:100%;
+	background-color:#F9EBEA  ;
+}
+img 
+{
+	width: 100%;
+	height: 350px;
+	border:1px solid black;
+}
+ul
+{
+	list-style: none;
+}
+.rate
+{
+	margin-right: 14px;
+}
+.services ul#menu li 
+{
+    background: #3A4359;
+	color: white;
+	padding: 5px;
+	margin-left: 8px;
+	border-radius: 4px;
+	width: 70%;
+}
+.horizontal li ul
+{
+	margin-bottom: 10px; 
+}
+.services ul
+{
+	margin-left: -43px;
+}
+.cuisine-style
+{
+    padding: 8px;
+}
+.reviewDetails
+{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left:5px;
+	margin-right:5px;
+}
+.reviewRating
+{
+	text-align: left;
+}
+.reviewName
+{
+
+	text-align: right;
+}
+.border1
+{
+	border-bottom: 1px solid #F5F5F5;
+	margin-bottom: 5px;
+	background: rgb(188, 204, 245);
+	color: black;
+}

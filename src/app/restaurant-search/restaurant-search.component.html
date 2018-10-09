@@ -1,0 +1,24 @@
+<app-home></app-home>
+<!--Design to get restuarnat information on card-->
+<body>
+    <div class="container">
+        <div class="row">
+            <!--Iterative div strts here-->
+            <div class="col-lg-4 col-md-4 col-sm-6" *ngFor="let k of  restList|async">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <img src={{k.restaurant.featured_image}} class="img-fluid img-responsive" alt="Smiley face" />
+                    </div>
+                    <h6 class="card-title">{{k.restaurant.name}}</h6>
+                    <div class="card-subtitle">
+                        <p>{{k.restaurant.user_rating.aggregate_rating}}</p>
+                        <p> {{k.restaurant.cuisines}}</p>
+                    </div>
+                    <a (click)="onClick(k)" routerLink="/restaurant/details" class="btn btn-primary">
+                        Know More...</a>
+                </div>      
+            <!--Iterative div ends here-->
+            </div>
+        </div>
+    </div>
+</body>
